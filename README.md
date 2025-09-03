@@ -28,8 +28,6 @@ Deployed on **Vercel (Frontend)** and **Render (Backend)**.
 ## ⚡ Demo  
 🔗 **Live Demo**: https://login-page-niqt.vercel.app/ 
 
-
-Thanks for visiting my page...
 ---
 
 ## ⚙️ Installation & Setup  
@@ -47,6 +45,8 @@ cd frontend
 npm install
 npm run dev
 
+```
 ---
 
+Thanks for visiting my page...
 
