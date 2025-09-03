@@ -16,6 +16,7 @@
 import { useState } from 'react'
 import axios from 'axios'
 import { useNavigate, Link } from 'react-router-dom'
+import Success from './pages/success.jsx'
 
 function App() {
   const [email, setEmail] = useState("")
