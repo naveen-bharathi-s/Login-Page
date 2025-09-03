@@ -44,7 +44,7 @@ const Signup = () => {
         return
     }
 
-    axios.post("http://localhost:3000/signup", {"name":name, "email":email, "pass":pass})
+    axios.post("https://login-page-feys.onrender.com/signup", {"name":name, "email":email, "pass":pass})
     .then((res) => {
       if(res.data.success){
         alert("Signup Successful! Please login.")

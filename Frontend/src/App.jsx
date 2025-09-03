@@ -36,7 +36,7 @@ function App() {
         return
     }
 
-    axios.post("http://localhost:3000/", {"email":email, "pass":pass})
+    axios.post("https://login-page-feys.onrender.com/", {"email":email, "pass":pass})
     .then((res) => {
       if(res.data.success){
         // alert("Login Successful!")
